@@ -1,0 +1,71 @@
+body{
+    color: #fff
+}
+#logo{
+    height: 10rem;
+    max-height: 7rem;
+    width: 10rem;
+    max-width: 7rem;
+}
+#home-hero{
+    margin:0;
+    padding:0;
+    background: url(../img/P3000\ blue_page-0001\ \(1\).jpg) no-repeat center fixed; 
+    -webkit-background-size: cover; /* pour anciens Chrome et Safari */
+    background-size: cover; 
+}
+.hero-head{
+    padding: 0rem 3rem;
+    max-height: 4rem;
+    margin-bottom: 4rem;
+}
+.hero-body__container{
+    bottom: 3rem;
+    text-align: center;
+}
+.home-hero__title{
+    padding-bottom: 2rem;
+
+}
+.home-hero__subtitle{
+    width: 60%;
+    margin: auto;
+
+}
+.home-hero__button{
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+#secteur {
+    padding: 2% 5%;
+    max-height: fit-content;
+    background-color: rgba(240, 240, 240, 0.624);
+}
+#secteur h2 {
+    text-align: center;
+    text-transform: uppercase;
+    color: black;
+    margin-top: 0.2rem;
+    font-size: x-large;
+    font-weight: bold;
+}
+#secteur p {
+    padding: 0.5rem;
+    text-align: center;
+    color: #000;
+    margin-bottom: 2rem;
+}
+.card {
+    margin: auto;
+}
+.image{
+    position: relative;
+    padding: 1rem;
+    height: 15rem;
+    overflow: hidden;
+}
+.card-image {
+    box-shadow: 2px 6px 7px 0px #2e2e2e21;
+
+}
