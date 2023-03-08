@@ -1,5 +1,6 @@
 body{
-    color: #fff
+    color: #fff;
+    overflow: hidden;
 }
 #logo{
     height: 10rem;
@@ -35,26 +36,28 @@ body{
 .home-hero__button{
     margin-top: 2rem;
     margin-bottom: 1rem;
+    
 }
 
 #secteur {
-    padding: 2% 5%;
+    padding: 1% 5%;
     max-height: fit-content;
     background-color: rgba(240, 240, 240, 0.624);
 }
 #secteur h2 {
+    padding-top: 3rem;
     text-align: center;
     text-transform: uppercase;
-    color: black;
+    color: rgb(0, 122, 199);
     margin-top: 0.2rem;
     font-size: x-large;
     font-weight: bold;
 }
 #secteur p {
-    padding: 0.5rem;
+    padding: 1rem;
     text-align: center;
     color: #000;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
 }
 .card {
     margin: auto;
@@ -66,6 +69,93 @@ body{
     overflow: hidden;
 }
 .card-image {
-    box-shadow: 2px 6px 7px 0px #2e2e2e21;
+    box-shadow: 2px 6px 7px 0px #3490f228;
 
+}
+
+#service {
+    margin: auto;
+    position: relative;
+}
+#service h2 {
+    color: rgb(0, 122, 199);
+    text-align: center;
+    font-size: x-large;
+    font-weight: bold;
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+}
+.photoPeintre{
+    width: 100%;
+    padding: 2% 10% 0rem 10%;
+    max-height: auto;
+}
+
+.text-content{
+    height: fit-content;
+    width: fit-content;
+    margin: auto;
+    background-color: rgba(222, 222, 222, 0.341);
+    color: #000;
+    color: #000;
+    text-align: center;
+    list-style: none;
+    
+}
+
+.text-content h3 {
+    margin: 1rem 2rem;
+    font-size: large;
+    font-weight: 600;
+}
+.text-content li {
+    padding: 2% 5%;
+}
+.text-content p {
+    font: x-large;
+    font-weight: 500;
+    margin-top: 1rem;
+    padding: 1rem 4rem 4rem 4rem;
+}
+
+.fa-solid {
+    padding: 1rem;
+    color: rgb(9, 160, 242);
+}
+
+#avis {
+    height: 40rem;
+}
+
+#footer {
+    position: relative;
+    height: fit-content;
+    background-color: #747373;
+   
+}
+.renseignement h3{
+   padding-left: 1.5rem;
+   padding-bottom: 1rem;
+   font-size: larger;
+   font-weight: bold;
+}
+
+.liensutiles h3{
+   padding-left: 0.5rem;
+   padding-bottom: 1rem;
+   font-size: larger;
+   font-weight: bold;
+   position: relative;
+
+}
+#footer p{
+    font-size: small;
+    padding: 0.5rem 2rem;
+}
+#footer a{
+    font-size: small;
+    padding: 0.5rem 0.5rem;
+}
+#footer i {
+    padding: 0.5rem 0rem 2rem 1rem;
 }
