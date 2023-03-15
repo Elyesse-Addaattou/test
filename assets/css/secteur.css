@@ -1,6 +1,7 @@
 body{
     color: #000000;
     padding: 0px;
+    overflow: hidden;
     
 }
 #logo{
@@ -55,4 +56,92 @@ body{
     width: 100%;
     border-top: 25px solid rgb(0, 122, 199) ;
     border-right: 25px solid rgb(0, 0, 0);
+}
+.header-secteur{
+    text-align: center;
+    width: 70%;
+    margin: auto;
+    font-size: 1.5vh;
+}
+.titles {
+    font-size: 2vh;
+    font-weight: 700;
+    text-decoration: underline 3px solid rgb(0, 122, 199) ;
+    text-underline-offset: 6px;
+    margin-bottom: 1rem;
+}
+.paca {
+    text-align: center;
+    margin: auto;
+    margin-top: 3rem;
+   
+}
+.paca h2{
+    padding-bottom: 2vh;
+    margin: auto;
+    font-size: x-large;
+    font-weight: 500;
+
+
+}
+.logopaca {
+    height: 25vw;
+    margin: auto;
+}
+.paca-text-container{
+    margin:auto
+}
+.particulier{
+    height: fit-content;
+    text-align: center;
+    margin-top: 3rem;
+    background-color: rgba(175, 175, 175, 0.255);
+    
+}
+.particulier h2 {
+    padding-bottom: 2vh;
+    padding-top: 1rem;
+    margin: auto;
+    font-size: x-large;
+    font-weight: 600;
+    padding-bottom: 3rem;
+}
+.fa-quote-right{
+    color: rgb(0, 122, 199);
+}
+.fa-quote-left{
+    color: rgb(0, 122, 199);
+}
+
+.photoPar{
+   width: 20vw;
+   min-width: 50%;
+   border-radius: 30px;
+} 
+.particulier-text-container {
+    margin: auto 2rem;
+}
+.particulier-text-container h3 {
+    font-weight: 600;
+}
+.particulier-text-container p {
+    font-weight: 600;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    
+}
+.btn-presta {
+    margin-top: 2rem;
+    border-color: rgb(0, 122, 199);
+    color: #ffffff;
+    background-color: rgb(0, 122, 199);
+    border-radius: 50px;
+}
+
+@media (min-width: 1880px){
+    .paca {
+        
+        width: 80%;
+    }
+    
 }
