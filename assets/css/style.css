@@ -3,10 +3,14 @@ body{
     overflow: hidden;
 }
 #logo{
+    position: absolute;
     height: 10rem;
-    max-height: 7rem;
+    max-height: 10rem;
     width: 10rem;
-    max-width: 7rem;
+    max-width: 10rem;
+    left: 55px;
+    top: -10px;
+
 }
 #home-hero{
     margin:0;
@@ -15,27 +19,31 @@ body{
     -webkit-background-size: cover; /* pour anciens Chrome et Safari */
     background-size: cover; 
 }
+
 .hero-head{
     padding: 0rem 3rem;
     max-height: 4rem;
     margin-bottom: 4rem;
 }
 .hero-body__container{
-    bottom: 3rem;
+    bottom: 2rem;
     text-align: center;
 }
 .home-hero__title{
-    padding-bottom: 2rem;
-
+    margin-top: 1.5rem;
+    padding-bottom: 1rem;
+    font-size: 3rem;
+    max-width: 400vw;
 }
 .home-hero__subtitle{
-    width: 60%;
+    width: 70%;
     margin: auto;
+    padding-top: 3rem;
 
 }
 .home-hero__button{
     margin-top: 2rem;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
     
 }
 
@@ -130,7 +138,7 @@ body{
 #footer {
     position: relative;
     height: fit-content;
-    background-color: #747373;
+    background-color: #282828;
    
 }
 .renseignement h3{
