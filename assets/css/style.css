@@ -1,5 +1,4 @@
 body{
-    color: #fff;
     overflow: hidden;
 }
 #logo{
@@ -167,3 +166,20 @@ body{
 #footer i {
     padding: 0.5rem 0rem 2rem 1rem;
 }
+
+.swiper {
+    width: 80%;
+    height: 400px;
+  }
+
+  p .fa-solid{
+    padding: 00.5rem;
+  }
+
+  .swiper-slide p{
+      line-height: 2;
+  }
+
+  .stars .fa-solid{
+      padding: 00.5rem;
+  }
