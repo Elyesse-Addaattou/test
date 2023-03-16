@@ -47,8 +47,6 @@ body{
 }
 .title a {
     color: #ffffff;
-    text-decoration: underline rgb(0, 122, 199) 3px;
-    text-underline-offset: 5px;
 }
 
 .peinture-text-container{ 

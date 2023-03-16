@@ -4,6 +4,8 @@ body{
     overflow: hidden;
     
 }
+
+  
 #logo{
     position: absolute;
     height: 10rem;
@@ -93,6 +95,7 @@ body{
 }
 .particulier{
     height: fit-content;
+    padding-bottom: 2rem;
     text-align: center;
     margin-top: 3rem;
     background-color: rgba(175, 175, 175, 0.255);
@@ -137,11 +140,77 @@ body{
     background-color: rgb(0, 122, 199);
     border-radius: 50px;
 }
+.btn-rea {
+    margin-top: 2rem;
+    border-color: rgb(0, 122, 199);
+    color: #ffffff;
+    background-color: rgb(0, 122, 199);
+    border-radius: 50px;
+}
+#footer {
+    margin-top: 2rem;
+    margin-bottom: 0px;
+    position: relative;
+    height: fit-content;
+    background-color:#282828;
+    color: #ffffff;
+   
+}
+.renseignement h3{
+   padding-left: 1.5rem;
+   padding-bottom: 1rem;
+   font-size: larger;
+   font-weight: bold;
+}
+
+.liensutiles h3{
+   padding-left: 0.5rem;
+   padding-bottom: 1rem;
+   font-size: larger;
+   font-weight: bold;
+   position: relative;
+
+}
+#footer p{
+    font-size: small;
+    padding: 0.5rem 2rem;
+}
+#footer a{
+    font-size: small;
+    padding: 0.5rem 0.5rem;
+}
+#footer i {
+    padding: 0.5rem 0rem 2rem 1rem;
+}
+.fa-brands{
+    color: #ffffff;
+}
 
 @media (min-width: 1880px){
+    .home-hero__title{
+        margin-top: 0rem;
+        font-size: 2rem;
+        max-width: 400vw;
+    }
     .paca {
         
         width: 80%;
     }
+    .particulier{
+        height: fit-content;
+        padding: auto;
+        text-align: center;
+        margin-top: 3rem;
+        background-color: rgba(175, 175, 175, 0.255);
+        
+    }
+    .photoBat{
+        width: 20vw;
+        min-width: 50%;
+        border-radius: 30px;
+        position: relative;
+        left: 100px;
+     } 
+
     
 }
