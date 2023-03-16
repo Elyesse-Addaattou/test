@@ -1,0 +1,475 @@
+body{
+    color: #000000;
+    padding: 0px;
+    
+}
+#logo{
+    position: absolute;
+    height: 10rem;
+    max-height: 10rem;
+    width: 10rem;
+    max-width: 10rem;
+    left: 60px;
+    top: -10px;
+
+}
+.navbar{
+    margin: 0;
+    padding: 0;
+    background: url(../img/P3000\ blue_page-0001\ \(1\).jpg) no-repeat center fixed; 
+    -webkit-background-size: cover; /* pour anciens Chrome et Safari */
+    background-size: cover; 
+}
+#home-hero{
+    margin-bottom: 10px;
+    margin-bottom: 2rem;
+    background: url(../img/P3000\ blue_page-0001\ \(1\).jpg) no-repeat center fixed; 
+    -webkit-background-size: cover; /* pour anciens Chrome et Safari */
+    background-size: cover; 
+    height: 16rem;
+}
+
+.hero-head{
+    padding: 0rem 3rem;
+    max-height: 2rem;
+    margin-bottom: 4rem;
+    
+}
+.hero-body__container{
+    bottom: 2rem;
+    text-align: center;
+}
+.home-hero__title{
+    margin-top: 3rem;
+    font-size: 2rem;
+    max-width: 400vw;
+    color: rgb(0, 122, 199);
+}
+.title a {
+    color: #ffffff;
+}
+
+.peinture-text-container{ 
+    display: block;
+    text-align: center;
+    background-color: rgba(175, 175, 175, 0.267);
+    margin: 0rem 2rem;
+}
+.peinture-text-container h1 {
+    font-size: 7vw;
+    font-weight: bold;
+    color:  rgb(0, 122, 199);
+    padding-bottom: 3rem;
+    padding-top: 1rem;
+    
+}
+.peinture-text-container h3 {
+    font-size: 4.5vw;
+    padding-bottom: 1rem;
+    font-weight: bold;
+}
+.peinture-text-container li {
+    padding: 1rem 2rem ;
+    list-style: none;
+    font-size: 3vw;
+    
+}
+.fa-solid {
+    padding: 1rem;
+    color: rgb(0, 122, 199);
+}
+.peinture-text-container p {
+    padding-top: 3rem ;
+    padding-bottom: 3rem;
+    width: 80% ;
+    margin: auto;
+    font-size: 3vw;
+    
+}
+.photoPInt {
+    max-height: 625px;
+    width: 100vw;
+    margin: auto;
+    padding: 1rem 2rem;
+}
+.papierP {
+    height: fit-content;
+    
+}
+.photoPP{
+    max-height: 625px;
+    width: 100vw;
+    margin: auto;
+    padding: 1rem 2rem;
+}
+.papierP-text-container{
+    display: block;
+    text-align: center;
+    background-color: rgba(175, 175, 175, 0.267);
+    margin: 0rem 2rem;
+}
+
+.papierP-text-container h1 {
+    font-size: 7vw;
+    font-weight: bold;
+    color:  rgb(0, 122, 199);
+    padding-bottom: 3rem;
+    padding-top: 1rem;
+    
+}
+.papierP-text-container h3 {
+    font-size: 4.5vw;
+    padding-bottom: 1rem
+}
+.papierP-text-container li {
+    padding: 1rem 2rem ;
+    list-style: none;
+    font-size: 3vw;
+    
+}
+
+.papierP-text-container p {
+    padding-top: 3rem ;
+    padding-bottom: 3rem;
+    width: 80% ;
+    margin: auto;
+    font-size: 3vw;
+    
+}
+
+#revetSol {
+    margin-top: 1rem;
+}
+.revetSol-text-container{ 
+    display: block;
+    text-align: center;
+    background-color: rgba(175, 175, 175, 0.267);
+    margin: 0rem 2rem;
+}
+.revetSol-text-container h1 {
+    font-size: 7vw;
+    font-weight: bold;
+    color:  rgb(0, 122, 199);
+    padding-bottom: 3rem;
+    padding-top: 1rem;
+    
+}
+.revetSol-text-container h3 {
+    font-size: 4.5vw;
+    padding-bottom: 1rem
+}
+.revetSol-text-container li {
+    padding: 1rem 2rem ;
+    list-style: none;
+    font-size: 3vw;
+    
+}
+
+.revetSol-text-container p {
+    padding-top: 3rem ;
+    padding-bottom: 3rem;
+    width: 80% ;
+    margin: auto;
+    font-size: 3vw;
+    
+}
+.photoSol {
+    max-height: 625px;
+    width: 100vw;
+    margin: auto;
+    padding: 1rem 2rem;
+
+}
+#ravalFac {
+    height: fit-content;
+}
+.ravalFac-text-container{ 
+    display: block;
+    text-align: center;
+    background-color: rgba(175, 175, 175, 0.267);
+    margin: 0rem 2rem;
+}
+.ravalFac-text-container h1 {
+    font-size: 7vw;
+    font-weight: bold;
+    color:  rgb(0, 122, 199);
+    padding-bottom: 3rem;
+    padding-top: 1rem;
+    
+}
+.ravalFac-text-container h3 {
+    font-size: 4.5vw;
+    padding-bottom: 1rem
+}
+.ravalFac-text-container li {
+    padding: 1rem 2rem ;
+    list-style: none;
+    font-size: 3vw;
+    
+}
+
+.ravalFac-text-container p {
+    padding-top: 3rem ;
+    padding-bottom: 3rem;
+    width: 80% ;
+    margin: auto;
+    font-size: 3vw;
+    
+}
+.photoSol {
+    max-height: 625px;
+    width: 100vw;
+    margin: auto;
+    padding: 1rem 2rem;
+
+}
+.photoFac{
+    max-height: 625px;
+    width: 100vw;
+    margin: auto;
+    padding: 1rem 2rem;
+}
+
+@media (min-width: 821px){
+    .peinture-text-container h1 {
+        font-size: xx-large;
+        font-weight: bold;
+        color:  rgb(0, 122, 199);
+        padding-bottom: 3rem;
+        
+    }
+    .peinture-text-container h3 {
+        font-size: large;
+        padding-bottom: 1rem;
+        font-weight: bold;
+    }
+    .peinture-text-container li {
+        padding: 1rem 2rem ;
+        list-style: none;
+        font-size: small;
+        
+        
+    }
+    .peinture-text-container p {
+        padding-top: 3rem ;
+        padding-bottom: 3rem;
+        width: 90% ;
+        margin: auto;
+        font-size: large;
+    }
+        .photoPInt {
+        
+            margin: 2rem auto;
+            padding: 1rem 2rem;
+        }
+    .papierP-text-container h1 {
+            font-size: xx-large;
+            font-weight: bold;
+            color:  rgb(0, 122, 199);
+            padding-bottom: 3rem;
+            
+        }
+    .papierP-text-container h3 {
+            font-size: large;
+            padding-bottom: 1rem;
+            font-weight: bold;
+        }
+    .papierP-text-container li {
+            padding: 1rem 2rem ;
+            list-style: none;
+            font-size: small;
+            
+            
+        }
+    .papierP-text-container p {
+            padding-top: 3rem ;
+            padding-bottom: 3rem;
+            width: 90% ;
+            margin: auto;
+            font-size: large;
+        }
+        .photoPP {
+                
+                margin: 2rem auto;
+                padding: 1rem 2rem;
+            }
+            .revetSol-text-container h1 {
+                font-size: xx-large;
+                font-weight: bold;
+                color:  rgb(0, 122, 199);
+                padding-bottom: 3rem;
+                
+            }
+            .revetSol-text-container h3 {
+                font-size: large;
+                padding-bottom: 1rem;
+                font-weight: bold;
+            }
+            .revetSol-text-container li {
+                padding: 1rem 2rem ;
+                list-style: none;
+                font-size: small;
+                
+                
+            }
+            .revetSol-text-container p {
+                padding-top: 3rem ;
+                padding-bottom: 3rem;
+                width: 90% ;
+                margin: auto;
+                font-size: large;
+            }
+            .ravalFac-text-container h1 {
+                font-size: xx-large;
+                font-weight: bold;
+                color:  rgb(0, 122, 199);
+                padding-bottom: 3rem;
+                margin-top: 2rem;
+                
+            }
+            .ravalFac-text-container h3 {
+                font-size: large;
+                padding-bottom: 1rem;
+                font-weight: bold;
+            }
+            .ravalFac-text-container li {
+                padding: 1rem 2rem ;
+                list-style: none;
+                font-size: small;
+                
+                
+            }
+            .ravalFac-text-container p {
+                padding-top: 3rem ;
+                padding-bottom: 3rem;
+                width: 90% ;
+                margin: auto;
+                font-size: large;
+            }
+}
+
+@media (min-width: 1880px) {
+    h4{
+        padding: 0rem 140px;
+    }
+    
+    .peinture-text-container{ 
+        position: relative;
+        text-align: center;
+        background-color: rgba(175, 175, 175, 0.255);
+        margin: 2rem 2rem 20rem 2rem;
+        top: 250px;
+        max-width: 850px;
+        left: 200px;
+        z-index: 1;
+        padding-top: 3rem;
+    }
+    .photoPInt {
+        width: 30vw;
+        position: absolute;
+        top: 300px;
+        left: 900px;
+        width: 50vw;
+        z-index: 2;
+    }
+    .home-hero__title{
+        margin-top: 0rem;
+        font-size: 2rem;
+        max-width: 400vw;
+    }
+    .photoPP{
+        width: 40vw;
+        position: absolute;
+        top: 1250px;
+        left: 300px;
+        z-index: 2;
+    }
+    .papierP-text-container{
+        position: relative;
+        left: 700px;
+        top: 100px;
+        max-width: 1100px;
+    }
+    .papierP-text-container h4{
+         padding: 0rem 350px;
+    }
+    #revetMur{
+        margin-top: 9rem;
+
+    }
+    #revetSol {
+        margin-top: 6rem;
+    }
+    .revetSol-text-container{ 
+        position: relative;
+        text-align: center;
+        background-color: rgba(175, 175, 175, 0.255);
+        margin: 2rem 2rem 4rem 2rem;
+        max-width: 850px;
+        z-index: 1;
+        padding-top: 3rem;
+        left: 100px;
+        top: 400px;
+    }
+    .photoSol {
+        position: absolute;
+        top: 2325px;
+        left: 800px;
+        z-index: 2;
+    }
+    .ravalFac-text-container{ 
+        position: relative;
+        text-align: center;
+        background-color: rgba(175, 175, 175, 0.255);
+        margin: 2rem 2rem 40rem 2rem;
+        max-width: 850px;
+        z-index: 1;
+        padding-top: 3rem;
+        left: 800px;
+        top: 600px;
+    }
+    .photoFac {
+        position: absolute;
+        top: 3450px;
+        left: 200px;
+        width: 40vw;
+        z-index: 2;
+    }
+}
+#footer {
+    margin-top: 2rem;
+    margin-bottom: 0px;
+    position: relative;
+    height: fit-content;
+    background-color:#282828;
+    color: #ffffff;
+   
+}
+.renseignement h3{
+   padding-left: 1.5rem;
+   padding-bottom: 1rem;
+   font-size: larger;
+   font-weight: bold;
+}
+
+.liensutiles h3{
+   padding-left: 0.5rem;
+   padding-bottom: 1rem;
+   font-size: larger;
+   font-weight: bold;
+   position: relative;
+
+}
+#footer p{
+    font-size: small;
+    padding: 0.5rem 2rem;
+}
+#footer a{
+    font-size: small;
+    padding: 0.5rem 0.5rem;
+}
+#footer i {
+    padding: 0.5rem 0rem 2rem 1rem;
+}
+    
+

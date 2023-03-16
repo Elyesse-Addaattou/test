@@ -1,5 +1,4 @@
 body{
-    color: #fff;
     overflow: hidden;
 }
 #logo{
@@ -132,7 +131,8 @@ body{
 }
 
 #avis {
-    height: 40rem;
+    background-color: rgba(240, 240, 240, 0.624);
+    padding: 2rem;
 }
 
 #footer {
@@ -167,3 +167,71 @@ body{
 #footer i {
     padding: 0.5rem 0rem 2rem 1rem;
 }
+
+.swiper {
+    width: 90%;
+    height: fit-content;
+    background-color: #fff;
+  }
+
+.swiper-slide{
+    padding: 1rem; 
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    block-size: fit-content;
+}
+.swiper-slide > *{
+    padding: 0.5rem;
+}
+.swiper-slide h3{
+color: #000;        
+}
+.swiper-slide h4{
+color: lightgray;        
+}
+
+  p .fa-solid{
+    padding: 00.5rem;
+  }
+    .fa-user{
+        width: 40px;
+        border-radius: 10px;
+        border: 6px solid rgb(9, 160, 242);;
+        text-align: center;
+        align-items: center;
+    }
+
+  .swiper-slide p{
+      line-height: 2;
+      width: 90%;
+      font-style: italic;
+      padding: 0;
+  }
+
+  .stars .fa-solid{
+      padding: 00.2rem;
+  }
+
+  .swiper-pagination{
+      position: relative;
+      margin-top: 20px;
+  }
+  .avis-header{
+      margin-bottom: 20px;
+  }
+
+  #avis h2{
+    color: rgb(0, 122, 199);
+    text-align: center;
+    font-size: x-large;
+    font-weight: bold;
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+  }
+
+  .avis-header p {
+    margin: 1rem 2rem;
+    font-size: large;
+    font-weight: 600;
+  }

@@ -1,0 +1,169 @@
+body{
+    color: #fff;
+    overflow: hidden;
+}
+#logo{
+    position: absolute;
+    height: 10rem;
+    max-height: 10rem;
+    width: 10rem;
+    max-width: 10rem;
+    left: 55px;
+    top: -10px;
+
+}
+#home-hero{
+    margin:0;
+    padding:0;
+    background: url(../img/P3000\ blue_page-0001\ \(1\).jpg) no-repeat center fixed; 
+    -webkit-background-size: cover; /* pour anciens Chrome et Safari */
+    background-size: cover; 
+}
+
+.hero-head{
+    padding: 0rem 3rem;
+    max-height: 4rem;
+    margin-bottom: 4rem;
+}
+.hero-body__container{
+    bottom: 2rem;
+    text-align: center;
+}
+.home-hero__title{
+    margin-top: 1.5rem;
+    padding-bottom: 1rem;
+    font-size: 3rem;
+    max-width: 400vw;
+}
+.home-hero__subtitle{
+    width: 70%;
+    margin: auto;
+    padding-top: 3rem;
+
+}
+.home-hero__button{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    
+}
+
+#secteur {
+    padding: 5% 5%;
+    max-height: fit-content;
+    background-color: rgba(240, 240, 240, 0.624);
+}
+#secteur h2 {
+    padding-top: 3rem;
+    text-align: center;
+    text-transform: uppercase;
+    color: rgb(0, 122, 199);
+    margin-top: 0.2rem;
+    font-size: x-large;
+    font-weight: bold;
+}
+#secteur p {
+    padding: 1rem;
+    text-align: center;
+    color: #000;
+    margin-bottom: 1rem;
+}
+.card {
+    margin: auto;
+}
+.image{
+    position: relative;
+    padding: 1rem;
+    height: 15rem;
+    overflow: hidden;
+}
+.card-image {
+    box-shadow: 2px 6px 7px 0px #3490f228;
+
+}
+
+#service {
+    margin: auto;
+    position: relative;
+}
+#service h2 {
+    color: rgb(0, 122, 199);
+    text-align: center;
+    font-size: x-large;
+    font-weight: bold;
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+}
+.photoPeintre{
+    width: 100%;
+    padding: 2% 10% 0rem 10%;
+    max-height: auto;
+}
+
+.text-content{
+    height: fit-content;
+    width: fit-content;
+    margin: auto;
+    background-color: rgba(222, 222, 222, 0.341);
+    color: #000;
+    color: #000;
+    text-align: center;
+    list-style: none;
+    
+}
+
+.text-content h3 {
+    margin: 1rem 2rem;
+    font-size: large;
+    font-weight: 600;
+}
+.text-content li {
+    padding: 2% 5%;
+}
+.text-content p {
+    font: x-large;
+    font-weight: 500;
+    margin-top: 1rem;
+    padding: 1rem 4rem 4rem 4rem;
+}
+
+.fa-solid {
+    padding: 1rem;
+    color: rgb(9, 160, 242);
+}
+
+#avis {
+    height: 40rem;
+}
+
+#footer {
+    position: relative;
+    height: fit-content;
+    background-color: #282828;
+   
+}
+.renseignement h3{
+   padding-left: 1.5rem;
+   padding-bottom: 1rem;
+   font-size: larger;
+   font-weight: bold;
+}
+
+.liensutiles h3{
+   padding-left: 0.5rem;
+   padding-bottom: 1rem;
+   font-size: larger;
+   font-weight: bold;
+   position: relative;
+
+}
+#footer p{
+    font-size: small;
+    padding: 0.5rem 2rem;
+}
+#footer a{
+    font-size: small;
+    padding: 0.5rem 0.5rem;
+}
+#footer i {
+    padding: 0.5rem 0rem 2rem 1rem;
+}
