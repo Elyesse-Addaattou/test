@@ -172,21 +172,24 @@ body{
     height: fit-content;
     background-color: #fff;
   }
+  .swiper-wrap{
+      overflow: visible; 
+  }
 
-.swiper-slide{
+.slide{
     padding: 1rem; 
     display: flex;
     justify-content: space-between;
     flex-direction: column;
     block-size: fit-content;
 }
-.swiper-slide > *{
+.slide > *{
     padding: 0.5rem;
 }
-.swiper-slide h3{
+.slide h3{
 color: #000;        
 }
-.swiper-slide h4{
+.slide h4{
 color: lightgray;        
 }
 
@@ -201,7 +204,7 @@ color: lightgray;
         align-items: center;
     }
 
-  .swiper-slide p{
+  .slide p{
       line-height: 2;
       width: 90%;
       font-style: italic;
@@ -237,3 +240,5 @@ color: lightgray;
   #avis p {
     text-align: center;
   }
+
+  

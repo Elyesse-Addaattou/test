@@ -4,6 +4,8 @@ document.addEventListener('DOMContentLoaded', () => {
     new Swiper('.swiper', {
         speed: 600,
         loop: true,
+        centeredSlides: false,
+        spaceBetween: 0,
         autoplay: {
           delay: 5000,
           disableOnInteraction: false
@@ -15,17 +17,13 @@ document.addEventListener('DOMContentLoaded', () => {
           clickable: true
         },
         breakpoints: {
-          320: {
-            slidesPerView: 1,
-          },
-    
+          
           1200: {
             slidesPerView: 2,
+            slidesPerGroup: 2,
           }
         }
       
       });
-
-      console.log("swiper done !");
 
 });
