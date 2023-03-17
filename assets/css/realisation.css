@@ -114,3 +114,7 @@ h1 {
         max-width: 400vw;
     }
 }
+.swiper {
+    width: 600px;
+    height: 300px;
+  }

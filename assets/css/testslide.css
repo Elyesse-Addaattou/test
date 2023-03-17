@@ -1,0 +1,120 @@
+body{
+    color: #000000;
+    overflow: hidden;
+    height: 100vh;
+}
+
+  
+#logo{
+    position: absolute;
+    height: 10rem;
+    max-height: 10rem;
+    width: 10rem;
+    max-width: 10rem;
+    left: 60px;
+    top: -10px;
+
+}
+.navbar{
+    margin: 0;
+    padding: 0;
+    background: url(../img/P3000\ blue_page-0001\ \(1\).jpg) no-repeat center fixed; 
+    -webkit-background-size: cover; /* pour anciens Chrome et Safari */
+    background-size: cover; 
+}
+#home-hero{
+    background: url(../img/P3000\ blue_page-0001\ \(1\).jpg) no-repeat center fixed; 
+    -webkit-background-size: cover; /* pour anciens Chrome et Safari */
+    background-size: cover; 
+    height: 16rem;
+}
+
+.hero-head{
+    padding: 0rem 3rem;
+    max-height: 2rem;
+    margin-bottom: 4rem;
+    
+}
+.hero-body__container{
+    bottom: 2rem;
+    text-align: center;
+}
+.home-hero__title{
+    margin-top: 3rem;
+    font-size: 2rem;
+    max-width: 400vw;
+    color: rgb(0, 122, 199);
+}
+.grille {
+    max-width: 1300px;
+    width: 80%;
+    height: auto;
+    margin: 30px auto;
+    display: grid;
+    grid-template-columns: repeat(3, 300px);
+    justify-content: center;
+    gap: 10px;
+
+}
+
+
+.grid-item {
+    width: 300px;
+    height: 200px;
+    background-color: #333;
+    overflow: hidden;
+    
+
+}
+#slider{
+    width: fit-content;
+    margin: auto;
+    z-index: 2;
+    
+
+}
+
+.container {
+    max-width: 1000px;
+    height: 80%;
+    margin: auto;
+    position: relative;
+  }
+
+.prev,
+.next {
+  cursor: pointer;
+  color: white;
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+  padding: 16px;
+  border-radius: 0 3px 3px 0;
+  background: rgba(0, 0, 0, .5);
+  transition: all .3s;
+}
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  .prev:hover,
+  .next:hover {
+    background: rgba(0, 0, 0, .8);
+  }
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    margin: 10px 2px 0 2px;
+    display: inline-block;
+    background: #ddd;
+    transition: all .3s;
+  }
+  
+  .active,
+  .dot:hover {
+    background: #717171;
+  }
+  
