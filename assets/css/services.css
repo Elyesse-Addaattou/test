@@ -69,7 +69,7 @@ body{
     font-weight: bold;
 }
 .peinture-text-container li {
-    padding: 1rem 2rem ;
+    padding: 0rem 2rem ;
     list-style: none;
     font-size: 3vw;
     
@@ -430,7 +430,7 @@ body{
     }
     .photoFac {
         position: absolute;
-        top: 3450px;
+        top: 3300px;
         left: 200px;
         width: 40vw;
         z-index: 2;

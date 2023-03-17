@@ -234,3 +234,6 @@ color: lightgray;
     font-size: large;
     font-weight: 600;
   }
+  #avis p {
+    text-align: center;
+  }
