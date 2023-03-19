@@ -75,7 +75,7 @@
   </div>
 </section>
 <section class="devis">
-    <form action="contact.php" method="post" role="form">
+    <form action="contact.php" method="post" role="form" enctype="multipart/form-data">
     <div class="field is-horizontal">
         <div class="field-label is-normal">
           <label class="label">Nom</label>
@@ -83,20 +83,17 @@
         <div class="field-body">
           <div class="field">
             <p class="control is-expanded has-icons-left">
-              <input class="input" type="text" name="name" placeholder="Nom">
+              <input class="input" type="text" name="name" placeholder="Nom" required>
               <span class="icon is-small is-left">
                 <i class="fas fa-user"></i>
               </span>
             </p>
           </div>
           <div class="field">
-            <p class="control is-expanded has-icons-left has-icons-right">
-              <input class="input is-success" type="email" placeholder="Email">
+            <p class="control is-expanded has-icons-left ">
+              <input class="input" type="email" placeholder="Email" name="email" required>
               <span class="icon is-small is-left">
                 <i class="fas fa-envelope"></i>
-              </span>
-              <span class="icon is-small is-right">
-                <i class="fas fa-check"></i>
               </span>
             </p>
           </div>
@@ -114,7 +111,7 @@
                 </a>
               </p>
               <p class="control is-expanded">
-                <input class="input" type="tel" placeholder="Votre numéro de téléphone">
+                <input class="input" type="tel" placeholder="Votre numéro de téléphone" name="num" required>
               </p>
             </div>
           </div>
@@ -128,7 +125,7 @@
         <div class="field-body">
             <div class="field">
                 <p class="control is-expanded has-icons-left">
-                  <input class="input" type="text" placeholder="Votre adresse">
+                  <input class="input" type="text" placeholder="Votre adresse" name="adresse">
                   <span class="icon is-small is-left">
                     <i class="fa-solid fa-location-dot"></i>
                   </span>
@@ -139,7 +136,7 @@
               <p class="control">
               </p>
               <p class="control has-icons-left">
-                <input class="input" type="text" pattern="[0-9]{5}" title="Code postal" placeholder="Code postal"/>
+                <input class="input" type="text" pattern="[0-9]{5}" title="Code postal" placeholder="Code postal" name="zipcode"/>
                 <span class="icon is-small is-left">
                     <i class="fa-solid fa-location-dot"></i>
                   </span>
@@ -149,7 +146,7 @@
 
           <div class="field">
             <p class="control is-expanded has-icons-left">
-              <input class="input" type="text" placeholder="Ville">
+              <input class="input" type="text" placeholder="Ville" name="city" required>
               <span class="icon is-small is-left">
                 <i class="fa-solid fa-location-dot"></i>
               </span>
@@ -167,20 +164,20 @@
           <div class="field is-narrow">
             <div class="control">
                 <label class="checkbox">
-                    <input type="checkbox">
-                    Remember me
+                    <input type="checkbox" name="int/ext">
+                    Peinture extérieur/intérieur
                   </label>
                   <label class="checkbox">
-                    <input type="checkbox">
-                    Remember me
+                    <input type="checkbox" name="facade">
+                    Ravalement de façade
                   </label>
                   <label class="checkbox">
-                    <input type="checkbox">
-                    Remember me
+                    <input type="checkbox" name="decorative">
+                    Peinture décorative
                   </label>
                   <label class="checkbox">
-                    <input type="checkbox">
-                    Remember me
+                    <input type="checkbox" name="other">
+                    Autre
                   </label>
             </div>
           </div>
@@ -194,15 +191,16 @@
         <div class="field-body">
           <div class="field">
             <div class="control">
-              <textarea class="textarea" placeholder= "Exemple: Peinture satinée sur un mur en placo de 20m²"></textarea>
+              <textarea class="textarea" placeholder= "Exemple: Peinture satinée sur un mur en placo de 20m²" name="description"></textarea>
             </div>
           </div>
         </div>
       </div>
 
-      <div class="file">
+      <div class="field is-horizontal upload">
+      <div class="file field-label is-normal">
         <label class="file-label">
-          <input class="file-input" type="file" name="resume">
+          <input class="file-input" type="file" name="image">
           <span class="file-cta">
             <span class="file-icon">
               <i class="fas fa-upload"></i>
@@ -213,6 +211,7 @@
           </span>
         </label>
       </div>
+    </div>
       
       <div class="field is-horizontal">
         <div class="field-label">
@@ -222,7 +221,7 @@
           <div class="field">
             <div class="control">
               <button class="button is-primary">
-                Send message
+                Envoyer la demande de devis 
               </button>
             </div>
           </div>
