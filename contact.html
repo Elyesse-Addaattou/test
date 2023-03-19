@@ -74,7 +74,162 @@
     <h3>Dimanche Fermé</h3>
   </div>
 </section>
-<section class="devis"></section>
+<section class="devis">
+    <form action="contact.php" method="post" role="form">
+    <div class="field is-horizontal">
+        <div class="field-label is-normal">
+          <label class="label">Nom</label>
+        </div>
+        <div class="field-body">
+          <div class="field">
+            <p class="control is-expanded has-icons-left">
+              <input class="input" type="text" name="name" placeholder="Nom">
+              <span class="icon is-small is-left">
+                <i class="fas fa-user"></i>
+              </span>
+            </p>
+          </div>
+          <div class="field">
+            <p class="control is-expanded has-icons-left has-icons-right">
+              <input class="input is-success" type="email" placeholder="Email">
+              <span class="icon is-small is-left">
+                <i class="fas fa-envelope"></i>
+              </span>
+              <span class="icon is-small is-right">
+                <i class="fas fa-check"></i>
+              </span>
+            </p>
+          </div>
+        </div>
+      </div>
+      
+      <div class="field is-horizontal">
+        <div class="field-label"></div>
+        <div class="field-body">
+          <div class="field is-expanded">
+            <div class="field has-addons">
+              <p class="control">
+                <a class="button is-static">
+                  +33
+                </a>
+              </p>
+              <p class="control is-expanded">
+                <input class="input" type="tel" placeholder="Votre numéro de téléphone">
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="field is-horizontal">
+        <div class="field-label is-normal">
+          <label class="label">Adresse</label>
+        </div>
+        <div class="field-body">
+            <div class="field">
+                <p class="control is-expanded has-icons-left">
+                  <input class="input" type="text" placeholder="Votre adresse">
+                  <span class="icon is-small is-left">
+                    <i class="fa-solid fa-location-dot"></i>
+                  </span>
+                </p>
+              </div>
+        <div class="field">
+            <div class="field has-addons">
+              <p class="control">
+              </p>
+              <p class="control has-icons-left">
+                <input class="input" type="text" pattern="[0-9]{5}" title="Code postal" placeholder="Code postal"/>
+                <span class="icon is-small is-left">
+                    <i class="fa-solid fa-location-dot"></i>
+                  </span>
+              </p>
+            </div>
+          </div>
+
+          <div class="field">
+            <p class="control is-expanded has-icons-left">
+              <input class="input" type="text" placeholder="Ville">
+              <span class="icon is-small is-left">
+                <i class="fa-solid fa-location-dot"></i>
+              </span>
+            </p>
+          </div>
+        </div>
+      </div>
+      
+      
+      <div class="field is-horizontal">
+        <div class="field-label">
+          <label class="label">Prestation souhaitée</label>
+        </div>
+        <div class="field-body">
+          <div class="field is-narrow">
+            <div class="control">
+                <label class="checkbox">
+                    <input type="checkbox">
+                    Remember me
+                  </label>
+                  <label class="checkbox">
+                    <input type="checkbox">
+                    Remember me
+                  </label>
+                  <label class="checkbox">
+                    <input type="checkbox">
+                    Remember me
+                  </label>
+                  <label class="checkbox">
+                    <input type="checkbox">
+                    Remember me
+                  </label>
+            </div>
+          </div>
+        </div>
+      </div>
+       
+      <div class="field is-horizontal">
+        <div class="field-label is-normal">
+          <label class="label">Détails</label>
+        </div>
+        <div class="field-body">
+          <div class="field">
+            <div class="control">
+              <textarea class="textarea" placeholder= "Exemple: Peinture satinée sur un mur en placo de 20m²"></textarea>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="file">
+        <label class="file-label">
+          <input class="file-input" type="file" name="resume">
+          <span class="file-cta">
+            <span class="file-icon">
+              <i class="fas fa-upload"></i>
+            </span>
+            <span class="file-label">
+              Choisir une image
+            </span>
+          </span>
+        </label>
+      </div>
+      
+      <div class="field is-horizontal">
+        <div class="field-label">
+          <!-- Left empty for spacing -->
+        </div>
+        <div class="field-body">
+          <div class="field">
+            <div class="control">
+              <button class="button is-primary">
+                Send message
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </form>
+</section>
 
   <footer id="footer" class="columns is-mobile">
     <div class="renseignement column">
