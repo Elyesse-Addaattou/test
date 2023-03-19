@@ -4,7 +4,11 @@ body{
     overflow: hidden;
     
 }
+.navbar-item:hover {
+    
+  background-color: rgba(0, 0, 0, 0) !important;
 
+}
   
 #logo{
     position: absolute;
@@ -84,6 +88,7 @@ img {
 .slides {
   display: none;
   max-width: 1000px;
+  max-height: 1300px;
   margin: auto;
   padding-top: 3rem;
 }
@@ -192,4 +197,52 @@ h1 {
         
     
     }
+}
+
+.grid-item {
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+}
+.grid-item .fadedbox {
+  background-color: #696969;
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #000000;
+  -webkit-transition: all 300ms ease-out;
+  -moz-transition: all 300ms ease-out;
+  -o-transition: all 300ms ease-out;
+  -ms-transition: all 300ms ease-out;
+  transition: all 300ms ease-out;
+  opacity: 0;
+  width: 100%;
+  height: 100%;
+  padding: auto;
+}
+.grid-item:hover .fadedbox {
+  opacity: 0.8;
+}
+.grid-item .text {
+  -webkit-transition: all 300ms ease-out;
+  -moz-transition: all 300ms ease-out;
+  -o-transition: all 300ms ease-out;
+  -ms-transition: all 300ms ease-out;
+  transition: all 300ms ease-out;
+  transform: translateY(30px);
+  -webkit-transform: translateY(30px);
+}
+.grid-item .title {
+  font-size: 2.5em;
+  text-transform: uppercase;
+  opacity: 0;
+  transition-delay: 0.2s;
+  transition-duration: 0.3s;
+}
+.grid-item:hover .title,
+.grid-item:focus .title {
+  opacity: 1;
+  transform: translateY(0px);
+  -webkit-transform: translateY(0px);
 }
