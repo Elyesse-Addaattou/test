@@ -1,5 +1,3 @@
-const slider = document.getElementById("slider");
-const grille = document.querySelector(".grille");
 
 let slideIndex = 1;
 
@@ -12,7 +10,7 @@ function currentSlide(n) {
 }
 function showSlides(n) {
     let slides = document.getElementsByClassName('slides');
-    let dots = document.getElementsByClassName('dot');
+    
     
     if(n > slides.length) { slideIndex = 1 }
     
@@ -23,54 +21,75 @@ function showSlides(n) {
       slides[i].style.display = "none";
     }
     
-    // Retirer "active" de tous les points
-    for(let i = 0; i < dots.length; i++) {
-      dots[i].classList.remove('active');
-    }
-    
     // Afficher la slide demandée
     slides[slideIndex - 1].style.display = 'block';
     
-    // Ajouter "active" sur le point cliqué
-    dots[slideIndex - 1].classList.add('active');
-
-    handleSlides();
   }
   
-  function handleSlides(){
-
-   document.body.addEventListener("click",function (e){ 
-     console.log(e.target.parentElement);
-     if ( slider.contains(e.target) ) {
-     }
-     else if(grille.style.display="none") {
-         slider.remove(); 
-         grille.style.display="grid";
-   }
-
-  })
-}
-
   const gridItems = document.querySelectorAll(".grid-item");
-  gridItems.forEach(gridItem => {
-    gridItem.addEventListener("click", handleClickGrid )
-  });
+  const container = document.querySelector(".container");
+  const contain = document.querySelector(".contain");
+  const grille = document.querySelector(".grille");
+  const prev = document.querySelector(".prev");
+  const next = document.querySelector(".next");
+  let check = true
+  
 
-  function handleClickGrid(e){
-    const targetName = e.target.parentNode.dataset.target;
-    const slidesContainer = document.querySelector(".slides--container");
-    for(i=1; i<5 ; i++){
-      const slides = document.createElement("div");
-      slides.classList.add("slides");
-      const image = document.createElement("img");
-      image.src="assets/img/photoSlider/"+targetName+"/"+i+".jpg";
-      image.style="width:100%";
-      slides.appendChild(image);
-      console.log(slides);
-      console.log(slidesContainer);
-      slidesContainer.prepend(slides);
-    }
-    grille.style.display = "none";
-    showSlides(slideIndex);
-  }
+  // Creer les divs slides au click
+  gridItems.forEach(gridItems => {
+  gridItems.addEventListener('click', (e) => {
+    //Recuperer la data-base des gridItems
+ const targetNumber = e.target.parentNode.dataset.target
+ let targetName = e.target.parentNode.dataset.foo
+
     
+    // Creation de la boucle for
+    for(i=0; i < targetNumber; i++){
+      
+    const slide = document.createElement("div");
+    slide.classList.add("slides");
+    container.appendChild(slide)
+  
+
+    // Creer le lien vers les images dans les divs
+    const image = document.createElement("img");
+    image.src = "assets/img/photoSlider/"+targetName+"/"+i+".jpg"
+    slide.appendChild(image)
+    console.log(targetName);
+
+    if(i===0) {
+      slide.style.display = "block"
+    }
+
+    
+    // Faire disparaitre les grid item
+    grille.style.display = "none";
+    document.body.style.backgroundColor = " #333";
+    next.style.opacity = "100%"
+    prev.style.opacity = "100%"
+    
+  } 
+  contain.style.display = "";
+  check = false
+
+  
+  })
+});
+
+contain.addEventListener('click',() => {
+  if (check === false ) {
+    const slides = document.querySelectorAll(".slides");
+    slides.forEach(slides => {
+      slides.remove()
+    })
+    contain.style.display = "none";
+    grille.style.display = "";
+    document.body.style.backgroundColor = " #fff";
+    next.style.opacity = "0";
+    prev.style.opacity = "0";
+
+  }
+  else {
+      
+  }
+})
