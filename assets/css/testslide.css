@@ -1,8 +1,7 @@
 body{
     color: #000000;
-    padding: 0px;
     overflow: hidden;
-    
+    height: 100vh;
 }
 
   
@@ -47,18 +46,19 @@ body{
     color: rgb(0, 122, 199);
 }
 img {
-    height: 100%;
-    width: 100%;
-  }
+  height: 100%;
+  width: 100%;
+}
 .grille {
     max-width: 1300px;
     width: 80%;
     height: auto;
     margin: 30px auto;
     display: grid;
-    grid-template-columns: repeat(auto-fill, 300px);
+    grid-template-columns: repeat(3, 300px);
     justify-content: center;
     gap: 10px;
+    display: grid;
 }
 
 
@@ -92,7 +92,7 @@ img {
   cursor: pointer;
   color: white;
   position: absolute;
-  top: 80%;
+  top: 50%;
   transform: translate(0, -50%);
   padding: 16px;
   border-radius: 0 3px 3px 0;
@@ -125,58 +125,3 @@ img {
 .dot:hover {
   background: #717171;
 }
-h1 {
-    text-align: center;
-    font-size: xx-large;
-    font-weight: bold;
-    padding: 2rem 0px;
-    color: rgb(0, 122, 199);
-}
-#footer {
-    margin-top: 2rem;
-    margin-bottom: 0px;
-    position: relative;
-    height: fit-content;
-    background-color:#282828;
-    color: #ffffff;
-   
-}
-.renseignement h3{
-   padding-left: 1.5rem;
-   padding-bottom: 1rem;
-   font-size: larger;
-   font-weight: bold;
-}
-
-.liensutiles h3{
-   padding-left: 0.5rem;
-   padding-bottom: 1rem;
-   font-size: larger;
-   font-weight: bold;
-   position: relative;
-
-}
-#footer p{
-    font-size: small;
-    padding: 0.5rem 2rem;
-}
-#footer a{
-    font-size: small;
-    padding: 0.5rem 0.5rem;
-    color: #ffffff;
-}
-#footer i {
-    padding: 0.5rem 0rem 2rem 1rem;
-}
-@media (min-width: 1880px) {
-    
-    .home-hero__title{
-        margin-top: 0rem;
-        font-size: 2rem;
-        max-width: 400vw;
-    }
-}
-.swiper {
-    width: 600px;
-    height: 300px;
-  }
