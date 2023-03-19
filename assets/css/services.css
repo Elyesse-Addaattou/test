@@ -3,6 +3,11 @@ body{
     padding: 0px;
     
 }
+.navbar-item:hover {
+    
+    background-color: rgba(0, 0, 0, 0) !important;
+
+}
 #logo{
     position: absolute;
     height: 10rem;
