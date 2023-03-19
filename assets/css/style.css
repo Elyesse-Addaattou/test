@@ -182,15 +182,16 @@ body{
     justify-content: space-between;
     flex-direction: column;
     block-size: fit-content;
+    
 }
+
+
 .slide > *{
     padding: 0.5rem;
 }
-.slide h3{
-color: #000;        
-}
+
 .slide h4{
-color: lightgray;        
+color: rgb(100, 100, 100);        
 }
 
   p .fa-solid{
@@ -218,7 +219,9 @@ color: lightgray;
   .swiper-pagination{
       position: relative;
       margin-top: 20px;
-  }
+
+    };
+  
   .avis-header{
       margin-bottom: 20px;
   }
@@ -240,5 +243,33 @@ color: lightgray;
   #avis p {
     text-align: center;
   }
+
+  .slide h3{
+    border: solid 2px rgb(9, 160, 242);
+    width: 50px;
+    border-radius: 100%;
+    font-size: xx-large;
+    font-weight: 600;
+    color: #fff;
+    background-color: rgb(9, 160, 242);
+    text-align: center;
+  }
+.stars {
+    margin: auto;
+    padding-top: 2rem;
+}
+@media (max-width: 1024px){
+    
+    #navbarBasicExample{
+        background-color: #131313 ;
+        z-index: 3 !important;
+        
+    }
+    #logo{
+        position: relative;
+        
+    
+    }
+}
 
   

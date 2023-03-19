@@ -4,7 +4,11 @@ body{
     overflow: hidden;
     
 }
+.navbar-item:hover {
+    
+    background-color: rgba(0, 0, 0, 0) !important;
 
+}
   
 #logo{
     position: absolute;
@@ -214,3 +218,17 @@ body{
 
     
 }
+@media (max-width: 1024px){
+    
+    #navbarBasicExample{
+        background-color: #131313 ;
+        z-index: 3 !important;
+        
+    }
+    #logo{
+        position: relative;
+        
+    
+    }
+}
+
