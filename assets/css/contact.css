@@ -194,3 +194,10 @@ body{
     
     }
 }
+.devisgrat{
+    font-size: x-large;
+    margin: auto;
+    text-align: center;
+    color: rgb(33, 120, 173);
+    font-weight: 600;
+}
