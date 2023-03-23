@@ -125,6 +125,13 @@ body{
    min-width: 50%;
    border-radius: 30px;
 } 
+.photoBat{
+    width: 20vw;
+    min-width: 50%;
+    border-radius: 30px;
+    position: relative;
+    left: 100px;
+ } 
 .particulier-text-container {
     margin: auto 2rem;
 }
@@ -218,6 +225,7 @@ body{
 
     
 }
+
 @media (max-width: 1024px){
     
     #navbarBasicExample{
@@ -230,5 +238,27 @@ body{
         
     
     }
+   
 }
-
+@media (max-width: 768px){
+    
+    #navbarBasicExample{
+        background-color: #131313 ;
+        z-index: 3 !important;
+        
+    }
+    #logo{
+        position: relative;
+        
+    
+    }
+    .photoBat{
+        width: 20vw;
+        min-width: 50%;
+        border-radius: 30px;
+        position: relative;
+        margin: auto;
+        left: 0;
+     } 
+   
+}
