@@ -57,12 +57,7 @@ body{
     text-underline-offset: 8px;
 }
 
-.triangle {
-    height: 550;
-    width: 100%;
-    border-top: 25px solid rgb(0, 122, 199) ;
-    border-right: 25px solid rgb(0, 0, 0);
-}
+
 .header-secteur{
     text-align: center;
     width: 70%;

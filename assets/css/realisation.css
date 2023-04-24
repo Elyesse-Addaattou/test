@@ -223,6 +223,7 @@ h1 {
 }
 .grid-item:hover .fadedbox {
   opacity: 0.8;
+  pointer-events: none;
 }
 .grid-item .text {
   -webkit-transition: all 300ms ease-out;
