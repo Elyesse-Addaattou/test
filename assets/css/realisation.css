@@ -65,16 +65,6 @@ img {
     gap: 10px;
 }
 
-
-.grid-item {
-    width: 300px;
-    height: 200px;
-    background-color: #333;
-    overflow: hidden;
-    
-  
-
-}
 .contain{
   margin:auto;
 }
@@ -204,8 +194,11 @@ h1 {
   position: relative;
   overflow: hidden;
   text-align: center;
-  transition: 2s;
-  opacity: 1;
+  width: 300px;
+  height: 200px;
+  background-color: #333;
+  overflow: hidden;
+
 }
 .grid-item .fadedbox {
   background-color: #696969;
