@@ -23,12 +23,12 @@ body{
 .navbar{
     margin: 0;
     padding: 0;
-    background: url(../img/P3000\ blue_page.jpg) no-repeat center fixed; 
+    background: transparent; 
     -webkit-background-size: cover; /* pour anciens Chrome et Safari */
     background-size: cover; 
 }
 #home-hero{
-    background: url(../img/P3000\ blue_page-0001\ \(1\).jpg) no-repeat center fixed; 
+    background: url(../img/P3000\ blue_page.jpg) no-repeat center fixed; 
     -webkit-background-size: cover; /* pour anciens Chrome et Safari */
     background-size: cover; 
     height: 16rem;
@@ -204,6 +204,8 @@ h1 {
   position: relative;
   overflow: hidden;
   text-align: center;
+  transition: 2s;
+  opacity: 1;
 }
 .grid-item .fadedbox {
   background-color: #696969;
