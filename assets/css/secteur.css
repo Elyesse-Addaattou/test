@@ -23,7 +23,7 @@ body{
 .navbar{
     margin: 0;
     padding: 0;
-    background: url(../img/P3000\ blue_page-0001\ \(1\).jpg) no-repeat center fixed; 
+    background: url(../img/P3000\ blue_page.jpg) no-repeat center fixed; 
     -webkit-background-size: cover; /* pour anciens Chrome et Safari */
     background-size: cover; 
 }
